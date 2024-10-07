@@ -7,19 +7,47 @@
 /* div { */
 /*   background-color: hsl(60, 60, 60); */
 /* } */
+/**/
+/* .caja1 { */
+/*   width: 150px; */
+/*   height: 150px; */
+/*   background-color: rgb(35, 49, 66); */
+/* } */
+/* .caja2 { */
+/*   width: 150px; */
+/*   height: 150px; */
+/*   background-color: #455d7a; */
+/* } */
+/* .caja3 { */
+/*   width: 150px; */
+/*   height: 150px; */
+/*   background-color: hsl(0, 93%, 66%); */
+/* } */
+
+/* * { */
+/*   color: orange; */
+/* } */
+
+/* div { */
+/*   color: green; */
+/* } */
 
 .caja1 {
-  width: 150px;
-  height: 150px;
-  background-color: rgb(35, 49, 66);
+  color: red;
 }
-.caja2 {
-  width: 150px;
-  height: 150px;
-  background-color: #455d7a;
+
+#foo {
+  color: orange;
 }
-.caja3 {
-  width: 150px;
-  height: 150px;
-  background-color: hsl(0, 93%, 66%);
+
+a[title] {
+  color: green;
+}
+
+button:hover {
+  background-color: green;
+}
+
+input:disabled {
+  border: 2px solid orange;
 }
