@@ -51,3 +51,22 @@ button:hover {
 input:disabled {
   border: 2px solid orange;
 }
+
+.hijo1 ~ div {
+  color: violet;
+}
+
+.foo {
+  color: green;
+}
+#bar {
+  color: red;
+}
+
+#outer #inner a {
+  background-color: blue;
+}
+
+#outer a {
+  background-color: red;
+}
